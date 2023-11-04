@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/*colors*/
+
+:root {
+    --primary-color: hsl(154, 47%, 31%);
+    --primary-color-light: hsl(152, 61%, 36%);
+    --secondary-color: hsl(134, 38%, 54%);
+    --secondary-fade: hsla(134, 47%, 80%, 0.153);
+    --secondary-color-light: hsla(136, 36%, 71%, 0.15);
+    --error-color: hsl(0, 100%, 50%);
+    --error-color-light: hsla(0, 50%, 62%, 0.086);
+    --orange-color: hsl(22, 95%, 57%);
+    --tertiary-color: hsl(0, 0%, 100%);
+    --dark-color: hsl(0, 0%, 0%);
+    --grey-color: hsl(0, 0%, 50%);
+    --blur-bg: hsla(0, 0%, 0%, 0.633);
+
+    /*Font size*/
+
+    --h1-size: 2rem;
+    --h2-size: 1.6rem;
+    --h3-size: 1.2rem;
+    --p-size-normal: 1rem;
+    --p-size-plus: 1.1rem;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background: var(--tertiary-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+.page {
+    max-width: 120rem;
+}
+
+a,
+a:active,
+a:visited {
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    background: var(--secondary-color);
+    color: var(--tertiary-color);
+    font-weight: 600;
+}
+
+button:hover {
+    background: var(--primary-color-light);
+    transition: .5s ease-in-out;
+}
+
+input {
+    border: none;
+    outline: none;
+    font-size: var(--p-size);
+    font-weight: 500;
+}
+
+
+i {
+    cursor: pointer;
+}

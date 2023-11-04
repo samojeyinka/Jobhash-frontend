@@ -1,0 +1,60 @@
+.create {
+    width: 90%;
+    margin: auto;
+}
+
+.create__container {
+    padding-top: 3rem;
+}
+
+.create h2 {
+    font-size: var(--h2-size);
+    color: var(--dark-color);
+    font-weight: 500;
+}
+
+.create__form {
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.create__form .input__box {
+    padding: 0 .8rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-between;
+    background: var(--secondary-fade);
+    border-radius: .4rem;
+    font-size: var(--p-size-plus);
+
+}
+
+.create .create__form input,
+.create__form select {
+    width: 100%;
+    padding: 1rem 0;
+    background: none;
+
+}
+
+.create .input__icon {
+    color: var(--primary-color);
+}
+
+.input__box select {
+    border: none;
+    outline: none;
+    font-size: var(--p-size-normal);
+    cursor: pointer;
+    color: var(--grey-color);
+}
+
+
+.create .add__btn {
+    padding: 1rem;
+    border-radius: .4rem;
+}
