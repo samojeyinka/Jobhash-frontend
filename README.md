@@ -1,4 +1,4 @@
-## [Live Demo](https://jobhash.vercel.app/login)
+## [Live Demo](https://jobhash.vercel.app)
 
 # Getting Started with Create React App
 
