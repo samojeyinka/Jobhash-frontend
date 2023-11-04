@@ -23,7 +23,7 @@ const LaunchScreen = () => {
   useEffect(() => {
     if (redirect) {
       // Use the `navigate` function to redirect to the desired route
-      navigate('/introduction');
+      navigate('/login');
     }
   }, [redirect, navigate]);
 

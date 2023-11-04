@@ -57,7 +57,7 @@ const Header = ({ getUsername, displayEmail, displayUsername }) => {
                     {/* buttom menu */}
                     <div className='phone-menu'>
                         <ul className='phone_menu_links'>
-                            <li><Link to={'/'}><i><FaSearch /></i><p>Explore</p></Link></li>
+                            <li><Link to={'#'}><i><FaSearch /></i><p>Explore</p></Link></li>
                             <li><Link to={'/hash'}><i><FaPlus /></i><p>Create</p></Link></li>
                             <li><Link onClick={logout}><i><FaUser /></i><p>Log out</p></Link></li>
                         </ul>
@@ -67,7 +67,7 @@ const Header = ({ getUsername, displayEmail, displayUsername }) => {
                 <div className='links_container' className={open ? 'links_container active' : 'links_container'}>
                     <ul className='menu_links'>
                         <li><Link to={'/hash'}>Create job</Link></li>
-                        <li><Link to={'/'}>All jobs</Link></li>
+                        <li><Link to={'#'}>All jobs</Link></li>
                         <span className='break-line'></span>
                         <li><Link className='logout' onClick={logout}>Log out</Link></li>
                     </ul>

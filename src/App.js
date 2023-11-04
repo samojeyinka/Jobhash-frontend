@@ -3,7 +3,6 @@ import {Route, Router,Routes} from 'react-router-dom'
 import Register from './pages/Register';
 import Login from './pages/Login';
 import LaunchScreen from './pages/Launch-screen';
-import Intro from './pages/Intro';
 import Dashboard from './pages/Dashboard';
 import Create from './pages/Create';
 import Header from './components/Header';
@@ -16,7 +15,6 @@ function App() {
 
       {/* Routes */}
       <Route exact path='/' Component={LaunchScreen}/>
-      <Route path='/introduction' Component={Intro}/>
       <Route path='/register' Component={Register}/>
        <Route path='/login' Component={Login}/>  
        <Route path='/:id' Component={Dashboard}/>
