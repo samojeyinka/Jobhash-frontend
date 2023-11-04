@@ -6,6 +6,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+**Click to see the [backend repo(API)](https://github.com/samojeyinka/Jobhash)**
+
 ## Available Scripts
 
 In the project directory, you can run:
