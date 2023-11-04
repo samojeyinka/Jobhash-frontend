@@ -1,12 +1,14 @@
 ## 👉[Live Demo](https://jobhash.vercel.app)
 
-### Do you want to create something nice with the API, Checkout the DOCUMENTATION [HERE](https://jobhash.onrender.com/api-docs/)
+⚙️ ### Do you want to create something nice with the API, Checkout the DOCUMENTATION [HERE](https://jobhash.onrender.com/api-docs/)
+
+👨‍🚒 **Click to see the [backend repo(API)](https://github.com/samojeyinka/Jobhash)**
 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-**Click to see the [backend repo(API)](https://github.com/samojeyinka/Jobhash)**
+
 
 ## Available Scripts
 
